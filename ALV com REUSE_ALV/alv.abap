@@ -8,7 +8,7 @@
 *&---------------------------------------------------------------------*
 *                          t_out e wa_out                              *
 *&---------------------------------------------------------------------*
-DATA: t_out  TYPE TABLE OF ztrewes001,
+DATA: t_out  TYPE TABLE OF ztrewes001,       "Troco  ztrewes001 pela minha estrutura ou tabela 
       wa_out LIKE LINE OF t_out.
 
 
