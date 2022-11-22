@@ -64,7 +64,7 @@ FORM f_display_alv.
 * Declaração das variáveis base do ALV
   CALL FUNCTION 'REUSE_ALV_FIELDCATALOG_MERGE'
     EXPORTING
-      i_structure_name       = 'ZTREWES001'  " Tabela Transaparente, Criada na SE11.
+      i_structure_name       = 'ZTREWES001'    "Troco  ztrewes001 pela minha estrutura ou tabela 
       i_client_never_display = abap_true
     CHANGING
       ct_fieldcat            = lt_fieldcat[]
