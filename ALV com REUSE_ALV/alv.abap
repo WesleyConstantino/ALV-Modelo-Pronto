@@ -30,6 +30,7 @@ DATA: t_out  TYPE TABLE OF ztrewes001,       "Troco  ztrewes001 pela minha estru
 
 *&---------------------------------------------------------------------*
 *                      FORM:     zf_show_alv                           *
+*                  Necessário alterar os campos abaixo                 *
 *&---------------------------------------------------------------------*
 FORM zf_show_alv.
 
